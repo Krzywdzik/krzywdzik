@@ -1,0 +1,243 @@
+body, html {
+	
+	
+	background-image:URL("./grafiki/glownetlo.jpeg");
+	background-size: 170px 200px;
+	
+}
+
+
+.top{
+	width: 300px;
+	height: 300px;
+	
+	 position: absolute;
+
+  top: calc(50% - 150px);
+  right: calc(50% - 150px);
+  
+  
+   animation: kozak 1s linear infinite;
+  
+	
+}
+
+
+
+@keyframes kozak{
+	
+	from {transform: rotate(0deg);}
+	to  {transform: rotate(360deg);}
+}
+
+
+
+
+
+.bottom{
+	
+	width: 500px;
+	height: 500px;
+	
+	position: absolute;
+
+  top: calc(50% - 250px);
+  right: calc(50% - 250px);
+
+
+ animation: spin 8s linear infinite;
+
+  
+}
+
+.piwsko{
+
+	
+	 position: absolute;
+
+  top: calc(50% - 250px);
+}
+
+#licznik {
+	position: fixed;
+	bottom: 40px;
+	font-size: 50px;
+	width: 100%;
+	text-align: center;
+	
+	font-family: Verdana;
+	color: #FFE709;	
+	text-shadow: -4px 0 black, 0 4px black,
+      4px 0 black, 0 -4px black
+}
+
+
+@keyframes spin{
+	
+	from {transform: rotate(360deg);}
+	to  {transform: rotate(0deg);}
+}
+
+
+
+h1{
+	
+	color: #FFFFFF;
+	font-size: 40px;
+	text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+	
+	
+	
+}
+
+.wersja{
+	font-size: 12px;
+	color: white;
+text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+	
+	
+}
+
+h5{
+	font-size: 17px;
+	color:#27FF0D;
+	line-height:10%;
+	text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+	
+}
+.gura{
+	font-family: Verdana;
+	position: fixed;
+	top: 40px;
+	font-size: 50px;
+	width: 100%;
+z-index: 1;
+
+	
+
+}
+.dul{
+	position: fixed;
+	bottom: 55px;
+	font-size: 50px;
+	width: 100%;
+	text-align: center;
+	
+		font-family: Verdana;
+	color: #FFFFFF;	
+text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+	  line-height: 30%;
+	
+}
+
+.kowalzlodziej{
+	
+	
+	position:fixed;
+	bottom: 0px;
+	font-size: 45px;
+	width: 100%;
+	
+		font-family: Verdana;
+	color: #8D43FF;	
+text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+	  line-height: 30%;
+	
+}
+
+.zlotowki{
+position: fixed;
+	bottom: 15px;
+	font-size: 35px;
+	width: 60%;
+	text-align: right;
+
+	font-family: Verdana;
+	color: #FFE709;	
+text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+	  line-height: 30%;
+
+}
+
+#napis{
+	
+			font-family: Verdana;
+	color: #ffffFF;	
+text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+	  line-height: 30%;
+	
+	
+}
+
+
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  z-index: 1;
+;
+}
+
+li {
+  float: left;
+  z-index: 1;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  z-index: 1;
+}
+
+li.dropdown {
+  display: inline-block;
+  z-index: 1;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  z-index: 1;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  z-index: 1;
+}		
