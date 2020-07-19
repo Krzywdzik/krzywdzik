@@ -1,2 +1,2 @@
-#Krzywdzik
-Strona dla z gejowskim porno
+a pierdole ta strone w chuj
+
